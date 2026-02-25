@@ -40,7 +40,7 @@ VM_RAM_MIN="1g" \
 VM_RAM_MAX="16g" \
 IMGSIZE_MAX="100g" \
 IMGSIZE_MIN="0" \
-CIX_PROFILES_DATA="cbsd_vdi_image,cbsd_vdi_user,cbsd_vdi_password,cbsd_vdi_proto,clonos_active,vm_profile,vm_os_type,long_description,default_jailname,imgsize:bytes,imgsize_min:bytes,vm_ram:bytes" \
+CIX_PROFILES_DATA="cbsd_vdi_image,is_cloud,cbsd_vdi_user,cbsd_vdi_password,cbsd_vdi_proto,clonos_active,vm_profile,vm_os_type,long_description,default_jailname,imgsize:bytes,imgsize_min:bytes,vm_ram:bytes" \
 ./main -c "${CAPABILITIES}" -o ./out.php
 _ret=$?
 
